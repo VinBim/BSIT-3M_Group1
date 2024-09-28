@@ -1,42 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #E8D9CD; 
   margin: auto;
 }
+
 .navbar {
-background-color: #223030;
-overflow: hidden;
+  background-color: #223030;
+  overflow: hidden;
 }
+
 .navbar a {
-float: left;
-color: #EFEFE9;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+  float: left;
+  color: #EFEFE9;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.navbar a:visited {
+  color: #EFEFE9; 
 }
 .navbar a:hover {
-background-color: #959D90;
-color: #523D35;
+  background-color: #959D90;
+  color: #523D35;
 }
-hr{
-border: 3px solid #523D35;
+
+hr {
+  border: 3px solid #523D35;
 }
+
 .header {
   background-color: #959D90;
-  height: 110px;
   width: 100%;
+  padding: 20px;
+  min-height: 110px;
+}
+
+.header > * {
+  text-align: center; 
+  margin: 0 auto;
+  padding-top: 10px; 
 }
 
 h1 {
   text-align: center;
-font-family: georgia;
+  font-family: georgia;
   margin-top: 0;
   padding-top: 19px;
 }
 
 .container {
   border: 8px solid #523D35;
-background-color: #BBA58F;
+  background-color: #BBA58F;
   margin: 1rem;
   padding: 2rem;
   text-align: center;
@@ -63,15 +81,12 @@ img {
   width: 100%;
   height: auto;
   border-radius: 20px;
-  
 }
 
-.merch{
+.merch {
   max-width: 300px;
   height: 300px;
-  
 }
-
 
 .overlay_ko {
   position: absolute;
@@ -84,41 +99,38 @@ img {
   height: 100%;
   transition: opacity 0.5s;
   color: #EFEFE9;
-font-family: garamond;
+  font-family: garamond;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
 }
+
 .overlay_ko a {
   display: inline-block;
-color: #EFEFE9;
+  color: #EFEFE9;
   margin: 0 10px;
   font-size: 24px;
+  text-decoration: none; 
 }
+
 .icon-container {
   display: flex; 
   justify-content: center;
   margin-top: 10px;
-background: transparent;
+  background: transparent;
 }
-a{
-color: white;
-}
-a:visited {
-color: white;
-}
-a:hover {
-color: green;
-}
+
 .overlay_ko:hover > * {
   transform: translateY(20px);
   transition: 0.5s;
 }
+
 .member:hover .overlay_ko {
   opacity: 1;
 }
+
 .title {
   font-size: 24px;
   font-weight: bold;
@@ -126,19 +138,61 @@ color: green;
 
 .text {
   font-size: 16px;
-  margin-top: 0.25em; 
+  margin-top: 0.25em;
 }
 
-
-input {
-  border-radius: 7px;
-  width:50px;
-
-  padding-left: 50px;
-  padding-top: 5px;
+a.fa {
+  color: #E8D9CD;
+  text-decoration: none; 
 }
+
+a.fa:visited {
+  color: #E8D9CD; 
+}
+
+a.fa:hover {
+  color: #A6B37D; 
+}
+
+input, textarea {
+  min-height: 2em;
+  border: 1px solid #260D0E;
+  font-size: 14px;
+}
+
+.d-none {
+    display: none;
+}
+
+#texto .gif {
+    max-width: 1250px;
+    height: auto; 
+    display: block;
+    margin: 10px auto; 
+}
+
+#btn {
+    background-color: #959D90;
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 24px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+#btn:hover {
+    background-color: #223030; 
+}
+
+#user{
+	float: right;
+}
+
 /*
-
 * - universal selector
 p h1 - element selector
 #id .class - descendant combinator
@@ -146,12 +200,4 @@ p h1 - element selector
 a:hover - pseudo-class selector
 
 h1, p, h2 - group selector
-
-
-
-
-
-
-
-
 */
