@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  
-    <title>Group Exercise #1</title>
-    <link href="gege.css" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise</title>
+    <link href="tp.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -98,14 +98,6 @@ function umbrella()
   }
 }
 
-
-
-
-
-
-
-
-
      </script>
 
 
@@ -113,18 +105,17 @@ function umbrella()
 	<nav>
 		<div class="navbar">
                <a href="homepage.htm">Home</a>
-               <class="nav"><a href="practice.php">Our Team</a>
-               <class="nav"><a href="about.htm">About</a>
+               <class="nav"><a href="exercise1.php">Our Team</a>
 			   <class="nav"><a href="certif.htm">Certificates</a>
 			   <class="nav"><a href="port.htm">Portfolio</a>
-			   <class="nav"><a href="project.htm">Our Projects</a>;
-			   <class="nav"><a href="contact.htm">Contact Us</a>;
-               <class="nav"><a href="merch.php">Merch</a>;
+			   <class="nav"><a href="project.htm">Our Projects</a>
+               <class="nav"><a href="merch.php">Merch</a>
+			   <class="nav"><a href="coms/contact.php">Contact Us</a>
 		</div>
 	</nav>
     
     <div class="header">
-        <h1>BSIT-3M Group 1<br>Merchandise</h1>
+        <h1>Group 1<br>Merchandise</h1>
     </div>
 
 
@@ -209,7 +200,7 @@ function umbrella()
 	<hr>
     
 	<footer>
-		<p style="margin-left:30px;color:#223030;"><small>Made by Abalain, Almaida, Catimbang, Cuano & Morante 2024 © Copyright Intended</small></p>
+		<p style="margin-left:30px;color:#223030;"><small>Made by Abalain, Almaida, Catimbang, Cuaño & Morante 2024 © Copyright Intended</small></p>
 	</footer>
 
     
