@@ -21,6 +21,7 @@
 			   <class="nav"><a href="project.htm"><?php echo "Our Project" ?></a>
 			   <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
 			   <class="nav"><a href="coms/contact.php"><?php echo "Contact Us" ?></a>
+			   <class="nav"><a href="Check.php"><?php echo "Check this out!!" ?></a>
 		</div>
         
 	</nav>
