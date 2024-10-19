@@ -12,10 +12,15 @@
 			$(document).ready(function(){
 				$("#btn").click(function(){
 				   $("#texto").load("pic.php", function(){
-						alert("Hallooooo"); 
+						alert("It is loading brotha"); 
 					});
 				});
 			});
+			
+			function LOGIN() {
+				window.open("auth/LOGIN HTML.php", "PopupWindow", "width=600,height=400,scrollbars=yes");
+			}
+
 		</script>
 	</head>
 	<body>
@@ -25,10 +30,10 @@
 				<a href="exercise1.php">Our Team</a>
 				<a href="certif.htm">Certificates</a>
 				<a href="port.htm">Portfolio</a>
-				<a href="project.htm">Our Projects</a>
 				<a href="merch.php">Merch</a>
 				<a href="coms/contact.php">Contact Us</a>
-				<a id="user" class="fa fa-user" href="auth/LOGIN HTML.php"></a>
+				<a href="Check.php">Check this out!!</a>
+				<a id="user" class="fa fa-user" onclick="LOGIN()"></a>
 			</div>
 		</nav>
 		
