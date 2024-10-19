@@ -156,6 +156,14 @@ a.fa:hover {
   color: #A6B37D; 
 }
 
+#user{
+	float: right;
+	font-size: 20px !important;
+}
+a#user:hover{
+	color: #523D35;
+}
+
 /*
 
 * - universal selector
