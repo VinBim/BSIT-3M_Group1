@@ -6,26 +6,28 @@
     <title>Our Team</title>
     <link href="tp.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+	
 	<script>
-		window.alert("Do you want to refresh the page? ");
+		function LOGIN() {
+					window.open("auth/LOGIN HTML.php", "PopupWindow", "width=600,height=400,scrollbars=yes");
+				}
 	</script>
 	
+</head>
+<body>
 	<nav>
 		<div class="navbar">
                <a href="home.php"><?php echo "Home" ?></a>
                <class="nav"><a href="exercise1.php"><?php echo "Our Team" ?></a>
 			   <class="nav"><a href="certif.htm"><?php echo "Certificates" ?></a>
 			   <class="nav"><a href="port.htm"><?php echo "Portfolio" ?></a>
-			   <class="nav"><a href="project.htm"><?php echo "Our Project" ?></a>
 			   <class="nav"><a href="merch.php"><?php echo "Merch" ?></a>
 			   <class="nav"><a href="coms/contact.php"><?php echo "Contact Us" ?></a>
-			   <class="nav"><a href="Check.php"><?php echo "Check this out!!" ?></a>
+ 			   <class="nav"><a href="Check.php"><?php echo "Check this out!!" ?></a>
+			   <a id="user" class="fa fa-user" onclick="LOGIN()"></a>
 		</div>
-        
 	</nav>
-    
+
     <div class="header">
         <h1> <?php echo "Our Team Profile<br>BSIT-3M (Group 1)" ?> </h1>
     </div>
