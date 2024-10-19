@@ -20,9 +20,10 @@
             <a href="../exercise1.php">Our Team</a>
             <a href="../certif.htm">Certificates</a>
             <a href="../port.htm">Portfolio</a>
-            <a href="../project.htm">Our Projects</a>
             <a href="../merch.php">Merch</a>
             <a href="contact.php">Contact Us</a>
+			<a href="../Check.php">Check this out!!</a>
+			<a id="user" class="fa fa-user" onclick="LOGIN()"></a>
         </div>
     </nav>
     
@@ -37,7 +38,7 @@
     <div class="wrapper">
         <div class="container">
             <h2>Click Submit to Contact Us</h2>
-			
+			<!-- Form --!>
             <form method="post" action="message.php" onsubmit="return confirmSubmission()">
                 <label class="title">
                     Name: <input type="text" name="name" placeholder="Harry Watson" value="<?php echo isset($name) ? $name : ''; ?>"><br><br>
@@ -91,6 +92,9 @@
         function confirmSubmission() {
             return confirm("Are you sure you want to submit the form (o_O) ? ");
         }
+		function LOGIN() {
+			window.open("../auth/LOGIN HTML.php", "PopupWindow", "width=600,height=400,scrollbars=yes");
+			}
     </script>
     
 </body>
