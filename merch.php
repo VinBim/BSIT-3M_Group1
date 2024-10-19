@@ -98,19 +98,23 @@ function umbrella()
   }
 }
 
-     </script>
+function LOGIN() {
+	window.open("auth/LOGIN HTML.php", "PopupWindow", "width=600,height=400,scrollbars=yes");
+}
+</script>
 
 
    
 	<nav>
 		<div class="navbar">
-               <a href="homepage.htm">Home</a>
-               <class="nav"><a href="exercise1.php">Our Team</a>
-			   <class="nav"><a href="certif.htm">Certificates</a>
-			   <class="nav"><a href="port.htm">Portfolio</a>
-			   <class="nav"><a href="project.htm">Our Projects</a>
-               <class="nav"><a href="merch.php">Merch</a>
-			   <class="nav"><a href="coms/contact.php">Contact Us</a>
+               <a href="home.php">Home</a>
+               <a href="exercise1.php">Our Team</a>
+			   <a href="certif.htm">Certificates</a>
+			   <a href="port.htm">Portfolio</a>
+               <a href="merch.php">Merch</a>
+			   <a href="coms/contact.php">Contact Us</a>
+			   <a href="Check.php">Check this out!!</a>
+			   <a id="user" class="fa fa-user" onclick="LOGIN()"></a>
 		</div>
 	</nav>
     
